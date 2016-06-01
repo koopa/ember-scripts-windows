@@ -1,1 +1,1 @@
-cscript "o:\kon\scripts\ember_serve_admin.vbs" $(pwd)
+cscript $(dirname $0)/ember_serve_admin.vbs $(pwd)
